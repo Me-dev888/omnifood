@@ -187,12 +187,12 @@ body{
     padding: 0px;
     float: left;
     margin: 0px;
-    background-color: #000;    
+    background-color: #000; overflow:hidden;   
 }
 .mphoto {
     width: 100%;
     padding: 0px;
-    margin: 0px;
+    margin: 0px;overflow:hidden;
 }
 .mphoto img{
     opacity: 0.7;
@@ -205,7 +205,8 @@ body{
      transition: opacity 2s,-webkit-transform 2s;
      transition: transform 2s,opacity 2s;
      transition: transform 2s,opacity 2s,-webkit-transform 2s;
-
+    
+overflow:hidden;
     
 }
 .clearfix:after{
@@ -218,7 +219,7 @@ body{
 .mphoto img:hover{
     opacity: 1;
     -webkit-transform: scale(1.03);
-    transform: scale(1.03);
+    transform: scale(1.09);
     overflow:hidden;
 }
 
